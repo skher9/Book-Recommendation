@@ -1,13 +1,42 @@
-body {
+html, body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  height: 100%;
+  font-family: Caveats;
+  background-color: #176b87;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.Apps{
+  display: flex;
+  flex-direction: column;
 }
+
+
+.Header {
+  font-family: Caveat;
+  background-color: #176b87;
+  color: #f0f0f0;
+}
+
+.btn {
+  background-color: #f0f0f0;
+  color: #176b87;
+  font-family: Caveat;
+  font-style: bold;
+  border-radius: 6px;
+  padding: 5px;
+}
+
+.p {
+  color: #f0f0f0;
+}
+
+.list {
+  margin-left: 35%;
+  font-size: larger;
+  font-family: Caveat;
+  background-color: #176b87;
+  color: #f0f0f0;
+  width: 400px;
+}
+
